@@ -16,12 +16,12 @@ Information such as weekly chart, current price, conversion of Rials , Exchange 
 ![alt text](https://raw.githubusercontent.com/YasinBlackhat/bit_cryptocurrency/master/pc1/Screenshot%20from%202020-06-07%2001-51-27.png)
 
 
- ..Reference..
+ # ..Reference..
 
 
 
 
--FAST WORD
+### -FAST WORD
                                              
 
 ---------- [1] You can speed up your operations by using these reserved words 
@@ -36,7 +36,7 @@ Thank you for your support
 
 
 
-GENERAL
+## GENERAL
 
 A list of information such as the							  
  (current price of Bitcoin, the current price of Bitcoin in dollars, etc.) 		  
@@ -52,7 +52,7 @@ A list of information such as the
   
 
 
-Bit_Information
+## Bit_Information
 
 											  
 |[1] Bit Coin > $ Dollar                            -d					  
@@ -63,7 +63,7 @@ Bit_Information
 |[6] Back to Meno (Press Enter...)                  -b, -back				  
 
 -----------------------------------------------------------------------------------
-Bit_Changare
+## Bit_Changare
 
 |[1] bit_Exchang > cryptocurrency to cryptocurrency             -x, -exchang
 *                                                         
@@ -73,7 +73,7 @@ Bit_Changare
                         
 
 
--Description                
+### -Description                
                                           
 [1] Bit Coin Information **
 
@@ -103,13 +103,13 @@ Bit_Changare
                                            
                                           
 -----------------------------------------------------------------------------------
--Other Fast Word
+### -Other Fast Word
 
 -t , try : To run that section again
 
                                          
 -------------------------------------------------------------------------------------
-Please install the required libraries before running this program
+### Please install the required libraries before running this program
 
 requests 	=> pip install requests
 
@@ -123,5 +123,5 @@ seaborn		=> pip install seaborn
 
 ------------------------------------------------------------------------
 ### install python :
-### 			Linux :  (https://docs.python-guide.org/starting/install3/linux/)
-### 			Windows: (https://www.python.org/downloads/windows/)
+#### 			[Linux](https://docs.python-guide.org/starting/install3/linux/)
+#### 			[Windows](https://www.python.org/downloads/windows/)
