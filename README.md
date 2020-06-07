@@ -1,6 +1,9 @@
 # black_btc V.01
 Information such as weekly chart, current price, conversion of Rials , Exchange and ...
 
+###
+#### This version only supports Linux
+###
 
 ![alt text](https://raw.githubusercontent.com/YasinBlackhat/bit_cryptocurrency/master/pc1/Screenshot%20from%202020-06-07%2001-50-37.png)
 
