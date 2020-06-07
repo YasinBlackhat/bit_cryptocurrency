@@ -1,13 +1,8 @@
 # black_btc V.01
 Information such as weekly chart, current price, conversion of Rials , Exchange and ...
-###
-(https://docs.python-guide.org/starting/install3/linux/)
-###
 
 
-###
-#### This version only supports Linux
-###
+#### Use the < Linux > operating system for easier performance
 
 ![alt text](https://raw.githubusercontent.com/YasinBlackhat/bit_cryptocurrency/master/pc1/Screenshot%20from%202020-06-07%2001-50-37.png)
 
@@ -126,3 +121,7 @@ matplotlib	=> pip install matplotlib
 
 seaborn		=> pip install seaborn
 
+------------------------------------------------------------------------
+### install python :
+### 			Linux :  (https://docs.python-guide.org/starting/install3/linux/)
+### 			Windows: (https://www.python.org/downloads/windows/)
