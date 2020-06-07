@@ -1,5 +1,9 @@
 # black_btc V.01
 Information such as weekly chart, current price, conversion of Rials , Exchange and ...
+###
+![install python](https://docs.python-guide.org/starting/install3/linux/)
+###
+
 
 ###
 #### This version only supports Linux
