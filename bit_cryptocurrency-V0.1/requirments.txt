@@ -1,0 +1,13 @@
+###
+Please install the required libraries before running this program
+
+requests 	=> pip install requests
+
+colorama 	=> pip install colorama
+
+bs4      	=> pip install bs4
+
+matplotlib	=> pip install matplotlib
+
+seaborn		=> pip install seaborn
+
