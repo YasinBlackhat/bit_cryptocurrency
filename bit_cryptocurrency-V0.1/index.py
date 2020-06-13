@@ -72,7 +72,7 @@ while row:
                 if ('-h' in _num1_) or ('-help' in _num1_) or ('help' in _num1_):
                     hl._start_()
                     time.sleep(0.1)
-                    print(Fore.LIGHTBLUE_EX+"\nPress [Enter] for Back to meno...")
+                    print(Fore.LIGHTBLUE_EX+"\nPress [Enter] for Back to menu...")
                     hlp = str(input(Fore.LIGHTYELLOW_EX+'┌─['+Fore.LIGHTBLUE_EX+'Bitcoin% '+Fore.LIGHTGREEN_EX+'blackhat~@ '+Fore.LIGHTMAGENTA_EX+'Home/bit_Guid'+Fore.LIGHTYELLOW_EX+']\n└──╼'+Fore.LIGHTWHITE_EX+'\033[05m 卐 \033[25m' +Fore.YELLOW).lower())
 
                 if (_num_ == '1') or ('-d' in _num1_)  or ('$' in _set1_) or ('-$' in _set1_) or ('dollar' in _num1_):
@@ -100,7 +100,7 @@ while row:
 
                             print(Fore.LIGHTYELLOW_EX+"\033[05m[1]\033[25m",Fore.LIGHTGREEN_EX+'Bitcoin is currently priced   ',Fore.LIGHTCYAN_EX+d,"$ \n")
                             print(Fore.LIGHTYELLOW_EX+"\033[05m[2]\033[25m",Fore.LIGHTGREEN_EX+'Dollar\'s price in Iran ^Rial^ ',Fore.LIGHTCYAN_EX+str(r1),"\n")
-                            print(Fore.LIGHTBLUE_EX+"\nPress [Enter] for Back to meno...")
+                            print(Fore.LIGHTBLUE_EX+"\nPress [Enter] for Back to menu...")
                             hlp = str(input(Fore.LIGHTYELLOW_EX+'┌─['+Fore.LIGHTBLUE_EX+'Bitcoin% '+Fore.LIGHTGREEN_EX+'blackhat~@ '+Fore.LIGHTMAGENTA_EX+'Home/bit_Information/bit_dolarr'+Fore.LIGHTYELLOW_EX+']\n└──╼'+Fore.LIGHTWHITE_EX+'\033[05m 卐 \033[25m' +Fore.YELLOW).lower())
                             xd = hlp.split(' ')                
                 if (_num_ == '2') or ('-r' in _num1_) or ('-rial' in _num1_) or ('rial' in _num1_):
@@ -126,7 +126,7 @@ while row:
                             r2 = int(str(change_rial[1]).replace(',', ''))
                             print(Fore.LIGHTYELLOW_EX+"\033[05m[1]\033[25m",Fore.LIGHTGREEN_EX+'Bitcoin is currently priced   ',Fore.LIGHTCYAN_EX+str(d2),'Toman',"\n")
                             print(Fore.LIGHTYELLOW_EX+"\033[05m[2]\033[25m",Fore.LIGHTGREEN_EX+'Dollar\'s price in Iran ^Rial^ ',Fore.LIGHTCYAN_EX+str(r2),"\n")
-                            print(Fore.LIGHTBLUE_EX+"\nPress [Enter] for Back to meno... \n")
+                            print(Fore.LIGHTBLUE_EX+"\nPress [Enter] for Back to menu... \n")
                             hlp = str(input(Fore.LIGHTYELLOW_EX+'┌─['+Fore.LIGHTBLUE_EX+'Bitcoin% '+Fore.LIGHTGREEN_EX+'blackhat~@ '+Fore.LIGHTMAGENTA_EX+'Home/bit_Information/bit_rial'+Fore.LIGHTYELLOW_EX+']\n└──╼'+Fore.LIGHTWHITE_EX+'\033[05m 卐 \033[25m' +Fore.YELLOW).lower())
                             xd = hlp.split(' ')
                 if (_num_ == '3') or ('-p' in _num1_) or ('-plt' in _num1_) or ('plot' in _num1_) or ('chart' in _num1_):
@@ -149,7 +149,7 @@ while row:
                                 print(Fore.RED+'Humm I can not Connect      ERROR[%i] \n' % (er))
                                 time.sleep(3)
                                 break
-                        print(Fore.LIGHTBLUE_EX+"\nPress [Enter] for Back to meno... \n")
+                        print(Fore.LIGHTBLUE_EX+"\nPress [Enter] for Back to menu... \n")
                         hlp = str(input(Fore.LIGHTYELLOW_EX+'┌─['+Fore.LIGHTBLUE_EX+'Bitcoin% '+Fore.LIGHTGREEN_EX+'blackhat~@ '+Fore.LIGHTMAGENTA_EX+'Home/bit_Information/bit_chart'+Fore.LIGHTYELLOW_EX+']\n└──╼'+Fore.LIGHTWHITE_EX+'\033[05m 卐 \033[25m' +Fore.YELLOW).lower())
                         xc = hlp.split(' ')                       
                 if (_num_ == '4') or ('-c' in _num1_) or ('-curr' in _num1_) or ('currency' in _num1_) or ('currency available' in _num1_):
@@ -178,12 +178,12 @@ while row:
 
                             print(Fore.LIGHTYELLOW_EX+"\033[05m[1]\033[25m",Fore.LIGHTGREEN_EX+'Bitcoin is currently priced   ',Fore.LIGHTCYAN_EX+str(d3),'Million BTC',"\n")
                             print(Fore.LIGHTYELLOW_EX+"\033[05m[2]\033[25m",Fore.LIGHTGREEN_EX+'Dollar\'s price in Iran ^Rial^ ',Fore.LIGHTCYAN_EX+str(r3),"\n")
-                            print(Fore.LIGHTBLUE_EX+"\nPress [Enter] for Back to meno... \n")
+                            print(Fore.LIGHTBLUE_EX+"\nPress [Enter] for Back to menu... \n")
                             hlp = str(input(Fore.LIGHTYELLOW_EX+'┌─['+Fore.LIGHTBLUE_EX+'Bitcoin% '+Fore.LIGHTGREEN_EX+'blackhat~@ '+Fore.LIGHTMAGENTA_EX+'Home/bit_Information/bit_currency'+Fore.LIGHTYELLOW_EX+']\n└──╼'+Fore.LIGHTWHITE_EX+'\033[05m 卐 \033[25m' +Fore.YELLOW).lower())
                             xcr = hlp.split(' ')
-                if (_num_ == '6') or ('-b' in _num1_) or ('-back' in _num1_) or ('meno' in _num1_):
+                if (_num_ == '6') or ('-b' in _num1_) or ('-back' in _num1_) or ('menu' in _num1_):
                     os.system('clear')
-                    print('Back to meno Bit Coin')
+                    print('Back to menu Bit Coin')
                     time.sleep(1)
                 if (_num_ == '5') or ('-q' in _num1_) or ('-quit' in _num1_) or ('exit' in _num1_):
                     os.system('clear')
@@ -233,7 +233,7 @@ while row:
                             print('|')
                             tp1 = str(tp[4]).split(' ')
                             print(Fore.LIGHTGREEN_EX+'|',tp1[0],Fore.LIGHTCYAN_EX+tp1[1],Fore.LIGHTGREEN_EX+tp1[2])
-                        print(Fore.LIGHTCYAN_EX+"\nPress [Enter] for Back to meno...")
+                        print(Fore.LIGHTCYAN_EX+"\nPress [Enter] for Back to menu...")
                         hlp = str(input(Fore.LIGHTYELLOW_EX+'┌─['+Fore.LIGHTBLUE_EX+'Bitcoin% '+Fore.LIGHTGREEN_EX+'blackhat~@ '+Fore.LIGHTMAGENTA_EX+'Home/bit_Changer/bit_exchange'+Fore.LIGHTYELLOW_EX+']\n└──╼'+Fore.LIGHTWHITE_EX+'\033[05m 卐 \033[25m' +Fore.YELLOW).lower())
                         xe = hlp.split(' ')
                 if (_num_ == '2') or ('-l' in _num1_) or ('-list' in _num1_) or ('list' in _num1_) or ('rate' in _num1_):
@@ -244,7 +244,7 @@ while row:
                         time.sleep(0.1)
                         rate_list._pritnt_()
 
-                        print(Fore.LIGHTCYAN_EX+"\nPress [Enter] for Back to meno...")
+                        print(Fore.LIGHTCYAN_EX+"\nPress [Enter] for Back to menu...")
                         hlp = str(input(Fore.LIGHTYELLOW_EX+'┌─['+Fore.LIGHTBLUE_EX+'Bitcoin% '+Fore.LIGHTGREEN_EX+'blackhat~@ '+Fore.LIGHTMAGENTA_EX+'Home/bit_Changer/bit_list'+Fore.LIGHTYELLOW_EX+']\n└──╼'+Fore.LIGHTWHITE_EX+'\033[05m 卐 \033[25m' +Fore.YELLOW).lower())
                         xl = hlp.split(' ')
                 if (_num_ == '3') or ('-q' in _num1_) or ('-quit' in _num1_) or ('exit' in _num1_):
@@ -252,9 +252,9 @@ while row:
                     Ex._start_()
                     time.sleep(1)
                     break
-                if (_num_ == '4') or ('-b' in _num1_) or ('-back' in _num1_) or ('meno' in _num1_):
+                if (_num_ == '4') or ('-b' in _num1_) or ('-back' in _num1_) or ('menu' in _num1_):
                     os.system('clear')
-                    print('Back to meno Bit Coin')
+                    print('Back to menu Bit Coin')
                     time.sleep(1)
 
             except:
@@ -265,7 +265,7 @@ while row:
         elif (_set_ == '3') or ('-h' in _set1_) or ('-help' in _set1_) or ('help' in _set1_):
             hl._start_()
             time.sleep(0.1)
-            print(Fore.LIGHTBLUE_EX+"\nPress [Enter] for Back to meno...")
+            print(Fore.LIGHTBLUE_EX+"\nPress [Enter] for Back to menu...")
             hlp = str(input(Fore.LIGHTYELLOW_EX+'┌─['+Fore.LIGHTBLUE_EX+'Bitcoin% '+Fore.LIGHTGREEN_EX+'blackhat~@ '+Fore.LIGHTMAGENTA_EX+'Home/bit_Guid'+Fore.LIGHTYELLOW_EX+']\n└──╼'+Fore.LIGHTWHITE_EX+'\033[05m 卐 \033[25m' +Fore.YELLOW).lower())
         elif (_set_ == '4') or ('-q' in _set1_) or ('-quit' in _set1_) or ('exit' in _set1_) or ('quit' in _set1_):
             os.system('clear')
