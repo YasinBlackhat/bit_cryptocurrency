@@ -13,7 +13,7 @@ Information such as weekly chart, current price, conversion of Rials , Exchange 
 
 
 
-![alt text](https://raw.githubusercontent.com/YasinBlackhat/bit_cryptocurrency/master/pc1/Screenshot%20from%202020-06-07%2001-51-27.png)
+![alt text](https://raw.githubusercontent.com/YasinBlackhat/bit_cryptocurrency/master/pc1/Screenshot%20from%202020-06-13%2004-29-04.png)
 
 
  # ..Reference..
