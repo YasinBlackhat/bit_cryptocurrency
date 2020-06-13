@@ -17,6 +17,6 @@ def info_bit():
     time.sleep(0.1)
     print(Fore.LIGHTYELLOW_EX+'[5] '+Fore.LIGHTCYAN_EX+'Exit                                           \n')
     time.sleep(0.1)
-    print(Fore.LIGHTYELLOW_EX+'[6] '+Fore.LIGHTBLUE_EX+'Back to Meno (Press Enter...)                  \n')
+    print(Fore.LIGHTYELLOW_EX+'[6] '+Fore.LIGHTBLUE_EX+'Back to Menu (Press Enter...)                  \n')
     time.sleep(0.1)
     
