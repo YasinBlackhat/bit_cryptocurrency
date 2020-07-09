@@ -27,7 +27,7 @@ row = True
 while row:
     os.system('clear')
     try:
-        header.baner()
+        header.baner() #Welcome Baner
     except KeyboardInterrupt:
         Exit._ret_()
     except:
@@ -45,6 +45,7 @@ while row:
         time.sleep(0.1)
         print(Fore.LIGHTYELLOW_EX+'[4] Exit                             \n')
         time.sleep(0.1)
+        # Show Menu list
 
 
     except KeyboardInterrupt:
@@ -60,7 +61,7 @@ while row:
     except KeyboardInterrupt:
         Exit._ret_()
     try:
-        if (_set_ == '1') or ('-i' in _set1_) or ('-info' in _set1_) or ('information' in _set1_):
+        if (_set_ == '1') or ('-i' in _set1_) or ('-info' in _set1_) or ('information' in _set1_): #1 Menu
             os.system('clear')
             header.baner()
             time.sleep(0.1)
