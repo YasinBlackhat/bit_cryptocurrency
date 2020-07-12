@@ -1,6 +1,6 @@
-import requests
 from bs4 import BeautifulSoup
 from colorama import Fore
+import requests
 import os
 
 def _getdes_():
