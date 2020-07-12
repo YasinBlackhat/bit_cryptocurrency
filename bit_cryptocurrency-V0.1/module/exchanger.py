@@ -1,5 +1,6 @@
 from colorama import Fore
 import os
+
 def _init_():
     os.system('clear')
     print(Fore.LIGHTYELLOW_EX+'''
