@@ -2,20 +2,22 @@
 import os
 import sys
 import time
+# import lib
 
 try:
-    from colorama import Fore
+    from colorama import Fore # Check lib
 except:
     print("Install colorama Lib.      *pip install colorama*")
     sys.exit()
 
 try:
-    import requests
+    import requests # Check lib
 except:
     print(Fore.RED+"Install requests Lib.      *pip install requests*")
     sys.exit()
 
 try:
+    # Check import module
     from des import header,Exit,infobit,dollar,rial,Ex,chart,cur,hl,exchanger,info_change
     from module import get_doll,charts,get_riall,get_currenc,exchang,rate_list
 except:
@@ -23,11 +25,11 @@ except:
     print(Fore.LIGHTCYAN_EX+"       https://github.com/YasinBlackhat")
     sys.exit()
 
-row = True
-while row:
+row = True # vra loop
+while row: # loop
     os.system('clear')
     try:
-        header.baner() #Welcome Baner
+        header.baner() # Show Baner
     except KeyboardInterrupt:
         Exit._ret_()
     except:
@@ -57,11 +59,12 @@ while row:
     try:
         _set_ = str(input(Fore.LIGHTYELLOW_EX+'┌─['+Fore.LIGHTBLUE_EX+'Bitcoin% '+Fore.LIGHTGREEN_EX+'blackhat~@ '+Fore.LIGHTMAGENTA_EX+'Home'+Fore.LIGHTYELLOW_EX+']\n└──╼'+Fore.LIGHTWHITE_EX+'\033[05m 卐 \033[25m'+Fore.YELLOW).lower())
         _set1_ = _set_.split(' ')
+        # Input for info show
 
     except KeyboardInterrupt:
         Exit._ret_()
     try:
-        if (_set_ == '1') or ('-i' in _set1_) or ('-info' in _set1_) or ('information' in _set1_): #1 Menu
+        if (_set_ == '1') or ('-i' in _set1_) or ('-info' in _set1_) or ('information' in _set1_): # Menu 2 .. info bit ..
             os.system('clear')
             header.baner()
             time.sleep(0.1)
@@ -105,7 +108,7 @@ while row:
                             print(Fore.LIGHTBLUE_EX+"\nPress [Enter] for Back to menu...")
                             hlp = str(input(Fore.LIGHTYELLOW_EX+'┌─['+Fore.LIGHTBLUE_EX+'Bitcoin% '+Fore.LIGHTGREEN_EX+'blackhat~@ '+Fore.LIGHTMAGENTA_EX+'Home/bit_Information/bit_dolarr'+Fore.LIGHTYELLOW_EX+']\n└──╼'+Fore.LIGHTWHITE_EX+'\033[05m 卐 \033[25m' +Fore.YELLOW).lower())
                             xd = hlp.split(' ')                
-                if (_num_ == '2') or ('-r' in _num1_) or ('-rial' in _num1_) or ('rial' in _num1_):
+                if (_num_ == '2') or ('-r' in _num1_) or ('-rial' in _num1_) or ('rial' in _num1_): # 
                     xr = ['-t']
                     while ('-t' in xr) or ('try' in xr):
                         rial._start_()
@@ -198,7 +201,7 @@ while row:
                 print(Fore.LIGHTRED_EX+'Be sure to share this issue with the developer of this program')
                 print(Fore.LIGHTYELLOW_EX+'ysnblackhat@gmail.com')
                 break
-        elif (_set_ == '2') or ('-g' in _set1_) or ('-change' in _set1_) or ('changer' in _set1_) or ('changer' in _set1_) or ('exchang' in _set1_):
+        elif (_set_ == '2') or ('-g' in _set1_) or ('-change' in _set1_) or ('changer' in _set1_) or ('changer' in _set1_) or ('exchang' in _set1_): # Menu 3 .. Change bit ..
             os.system('clear')
             header.baner()
             time.sleep(0.1)
@@ -240,7 +243,7 @@ while row:
                         xe = hlp.split(' ')
                 if (_num_ == '2') or ('-l' in _num1_) or ('-list' in _num1_) or ('list' in _num1_) or ('rate' in _num1_):
                     xl = ['-t']
-                    while ('-t' in xl) or ('try' in xl):
+                    while ('-t' in xl) or ('try' in xl): # try
                         xl = []
                         rate_list._getdes_()
                         time.sleep(0.1)
@@ -264,12 +267,12 @@ while row:
                 print(Fore.LIGHTRED_EX+'Be sure to share this issue with the developer of this program')
                 print(Fore.LIGHTYELLOW_EX+'ysnblackhat@gmail.com')
                 break
-        elif (_set_ == '3') or ('-h' in _set1_) or ('-help' in _set1_) or ('help' in _set1_):
+        elif (_set_ == '3') or ('-h' in _set1_) or ('-help' in _set1_) or ('help' in _set1_): # Menu 3 .. Help bit ..
             hl._start_()
             time.sleep(0.1)
             print(Fore.LIGHTBLUE_EX+"\nPress [Enter] for Back to menu...")
             hlp = str(input(Fore.LIGHTYELLOW_EX+'┌─['+Fore.LIGHTBLUE_EX+'Bitcoin% '+Fore.LIGHTGREEN_EX+'blackhat~@ '+Fore.LIGHTMAGENTA_EX+'Home/bit_Guid'+Fore.LIGHTYELLOW_EX+']\n└──╼'+Fore.LIGHTWHITE_EX+'\033[05m 卐 \033[25m' +Fore.YELLOW).lower())
-        elif (_set_ == '4') or ('-q' in _set1_) or ('-quit' in _set1_) or ('exit' in _set1_) or ('quit' in _set1_):
+        elif (_set_ == '4') or ('-q' in _set1_) or ('-quit' in _set1_) or ('exit' in _set1_) or ('quit' in _set1_): # Menu 4 .. Exit bit ..
             os.system('clear')
             Exit._ret_()
 
