@@ -1,8 +1,8 @@
 # info lib
+from colorama import Fore 
 import time
 import os
 import sys
-from colorama import Fore 
 
 
 def info_bit():
