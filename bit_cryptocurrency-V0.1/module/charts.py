@@ -1,13 +1,14 @@
-import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
-import requests
 from colorama import Fore, init
-import os
+import matplotlib.pyplot as plt
 from bs4 import BeautifulSoup
 import seaborn as sns
+import requests
+import os
 sns.set()
 
 def _start_init():
+    
     try:
         res = requests.get('https://arzdigital.com/coins/')
         sub = BeautifulSoup(res.text, 'html.parser')
@@ -16,8 +17,10 @@ def _start_init():
 
     mk1 = 'app_BTC'
     f3 = os.path.exists('app_BTC')
+    
     if f3 == False :
         mk = os.mkdir(mk1)
+        
     if res.status_code == 200:
         print('\n'+Fore.MAGENTA+' Bitcoin weekly chart this week \n')
         ur = sub.find('img',attrs={'alt':'bitcoin-chart'})
@@ -29,5 +32,6 @@ def _start_init():
         plt.imshow(mpimg.imread(img))
         plt.show()
         os.remove("app_BTC/IMG.png")
+        
     elif res.status_code != 200:
         return int(res.status_code)
