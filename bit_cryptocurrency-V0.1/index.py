@@ -2,22 +2,22 @@
 import os
 import sys
 import time
-# import lib
+# import library
 
 try:
-    from colorama import Fore # Check lib
+    from colorama import Fore # Check library 
 except:
     print("Install colorama Lib.      *pip install colorama*")
     sys.exit()
 
 try:
-    import requests # Check lib
+    import requests # Check library 
 except:
     print(Fore.RED+"Install requests Lib.      *pip install requests*")
     sys.exit()
 
 try:
-    # Check import module
+    # Check and import modules
     from des import header,Exit,infobit,dollar,rial,Ex,chart,cur,hl,exchanger,info_change
     from module import get_doll,charts,get_riall,get_currenc,exchang,rate_list
 except:
@@ -25,12 +25,12 @@ except:
     print(Fore.LIGHTCYAN_EX+"       https://github.com/YasinBlackhat")
     sys.exit()
 
-row = True # vra loop
+row = True # var loop
 while row: # loop
-    os.system('clear')
+    os.system('clear') # clear command line
     try:
         header.baner() # Show Baner
-    except KeyboardInterrupt:
+    except KeyboardInterrupt: # Error CTRL+C
         Exit._ret_()
     except:
         print(Fore.RED+"Humm. [ERROR]404       Please try to Clone repositorie in Git hub *")
@@ -47,7 +47,7 @@ while row: # loop
         time.sleep(0.1)
         print(Fore.LIGHTYELLOW_EX+'[4] Exit                             \n')
         time.sleep(0.1)
-        # Show Menu list
+        # Show Menu list1
 
 
     except KeyboardInterrupt:
