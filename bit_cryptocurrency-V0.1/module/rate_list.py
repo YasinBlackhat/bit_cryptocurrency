@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 from colorama import Fore
 import requests
 import os
+# import library
 
 def _getdes_():
     os.system('clear')
@@ -26,13 +27,14 @@ def _pritnt_():
     for i in change1:
         a = str(i.text).split('\n')
         a = list(filter(None, a))
-        ro1 = (len(row1) - len(a[1])) - 79
-        ro2 = (len(row1) - len(a[2])) - 76
-        ro3 = (len(row1) - len(a[3])) - 73
+        ro1 = (len(row1) - len(a[1])) - 79 # Obtain spatial distance1
+        ro2 = (len(row1) - len(a[2])) - 76 # Obtain spatial distance2
+        ro3 = (len(row1) - len(a[3])) - 73 # Obtain spatial distance3
         n = Fore.LIGHTYELLOW_EX+'|',Fore.LIGHTCYAN_EX+str(a[1]),ro1*' ',Fore.LIGHTYELLOW_EX+'||'
         tom = str(a[3]).replace('تومان', ' Toman')
 
-        print(Fore.LIGHTYELLOW_EX+'|',Fore.LIGHTCYAN_EX+a[1],ro1*' ',Fore.LIGHTYELLOW_EX+
+        print(Fore.LIGHTYELLOW_EX+'|',Fore.LIGHTCYAN_EX+a[1],ro1*' ',Fore.LIGHTYELLOW_EX+ # Creat and show column
         '||',Fore.LIGHTMAGENTA_EX+a[2],ro2*' ',Fore.LIGHTYELLOW_EX+'||',Fore.LIGHTBLUE_EX+tom,ro3*' ',Fore.LIGHTYELLOW_EX+'|')
         print('|------------------------------||---------------------------------||-------------------------------------|')
 
+# END
