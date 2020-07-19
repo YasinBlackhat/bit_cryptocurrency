@@ -2,9 +2,10 @@ from colorama import Fore
 import os
 import time
 import sys
+# import library
 
 def _start_():
-    os.system('clear')
+    os.system('clear') # clear command line
     print(Fore.RED+'''
 
         ▄▄▄▄    ██▓    ▄▄▄       ▄████▄   ██ ▄█▀       ██░ ██  ▄▄▄     ▄▄▄█████▓
