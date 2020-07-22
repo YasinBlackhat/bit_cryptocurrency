@@ -2,11 +2,12 @@ import requests
 from bs4 import BeautifulSoup
 import os
 from colorama import Fore
+# import library
 
 def _init_():
     listof_curr = []
-    in1 = float(input(Fore.LIGHTYELLOW_EX+'Input value : '))
-    model1 = str(input('Origin Currency Type : ')).upper()
+    in1 = float(input(Fore.LIGHTYELLOW_EX+'Input value : ')) # Get value : example( 200 )
+    model1 = str(input('Origin Currency Type : ')).upper() 
     print('To')
     model2 = str(input('Destination Currency Type : ')).upper()
     print(Fore.LIGHTYELLOW_EX+'Please Wating ...')
