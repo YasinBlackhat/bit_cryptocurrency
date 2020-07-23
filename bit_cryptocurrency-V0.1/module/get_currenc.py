@@ -1,16 +1,17 @@
 import requests
 from bs4 import BeautifulSoup 
+# import library
 
 
 def _start_init():
     try:
-        res = requests.post('https://arzdigital.com/coins/')
+        res = requests.post('https://arzdigital.com/coins/') # requests
         res_d = requests.post('https://arzdigital.com/coins/bitcoin/')
     except:
         return "check".lower()
     
     
-    if res.status_code == 200 and res_d.status_code == 200:
+    if res.status_code == 200 and res_d.status_code == 200: # check response
 
         soup_d = BeautifulSoup(res_d.text, 'html.parser')
         soup = BeautifulSoup(res.text, 'html.parser')
