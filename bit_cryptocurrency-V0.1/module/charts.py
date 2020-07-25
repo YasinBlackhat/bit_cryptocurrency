@@ -26,7 +26,7 @@ def _start_init():
         mk = os.mkdir(mk1)
         # creat folder
         
-    if res.status_code == 200: 
+    if res.status_code == 200:  # check response 200
         print('\n'+Fore.MAGENTA+' Bitcoin weekly chart this week \n')
         ur = sub.find('img',attrs={'alt':'bitcoin-chart'})
         url = ur['data-src']
@@ -38,5 +38,5 @@ def _start_init():
         plt.show()
         os.remove("app_BTC/IMG.png")
         
-    elif res.status_code != 200:
+    elif res.status_code != 200: # not response 200 Error
         return int(res.status_code)
