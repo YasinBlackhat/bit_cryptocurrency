@@ -16,7 +16,7 @@ def _start_init():
         soup_d = BeautifulSoup(res_d.text, 'html.parser')
         soup = BeautifulSoup(res.text, 'html.parser')
 
-        curren = soup.find('td',attrs={'arz-coin-table-circulating-supply-td arz-sort-value'})
+        curren = soup.find('td',attrs={'arz-coin-table-circulating-supply-td arz-sort-value'}) # scraping
         bit_D = soup_d.find('span',attrs={'class':'arz-sana-price'})
 
         ret_d = [str(curren.text).replace(' میلیونBTC', ''), str(bit_D.text)]
