@@ -5,6 +5,7 @@ def _start_():
     try:
         res = requests.post('https://arzdigital.com/coins/')
         res_d = requests.post('https://arzdigital.com/coins/bitcoin/')
+        # request to url
     except:
         return "check".lower()
     
